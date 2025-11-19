@@ -32,7 +32,7 @@ def tag_ticket(subcategory, subject):
     else:
         return f'Computer Stationery - {subcategory}'
 
-def generate_computer_stationery_pdf(save_dir, csv_path):
+def generate_computerstationery_pdf(save_dir, csv_path):
     df = pd.read_csv(csv_path)
 
     # Tag tickets
